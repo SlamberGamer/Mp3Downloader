@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>utube.png</file>
+  </qresource>
+  <qresource prefix="logov2">
+    <file>logov3.png</file>
+  </qresource>
+  <qresource prefix="logov4">
+    <file>logov4.png</file>
+  </qresource>
+  <qresource prefix="designby">
+    <file>designed by ff.png</file>
+  </qresource>
+</RCC>
