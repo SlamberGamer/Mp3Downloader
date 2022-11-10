@@ -1,8 +1,4 @@
-import time
-start_time = time.time()
+from pytube import Playlist
+from pytube import YouTube
 
-siap = str("Siap Dah Download .. Selamat Berpuasa hehe")
-                print(siap + "time elapsed: {:.2f}s".format(time.time() - start_time))
-                QtWidgets.QApplication.processEvents()
-                self.label_3.setText("Siap Dah Download .. Selamat Berpuasa hehe",
-                      "time elapsed: {:.2f}s".format(time.time() - start_time))
+YouTube('https://youtu.be/9bZkp7q19f0').streams.first().download()
